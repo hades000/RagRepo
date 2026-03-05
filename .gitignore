@@ -1,0 +1,13 @@
+pycache/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+ragd4/data/vector_stores/
+ragd4/data/bm25/
+index.faiss
+metadata.json
+ragd4/uploads/
+ragd4/__pycache__/
+.DS_Store
+.env.example
