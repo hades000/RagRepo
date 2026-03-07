@@ -12,3 +12,4 @@ ragd4/__pycache__/
 .DS_Store
 .env.example
 .env
+tmpclaude-*
