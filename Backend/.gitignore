@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+myenv/
+Backend/myenv/
+# Data files (runtime-generated, keep directory stubs)
+data/vector_stores/*
+!data/vector_stores/.gitkeep
+data/bm25/
+
+# Uploaded files
+uploads/
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Temp files
+tmpclaude-*

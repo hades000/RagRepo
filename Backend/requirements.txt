@@ -1,0 +1,73 @@
+# Core Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+
+# Database
+psycopg2-binary==2.9.9
+prisma==0.15.0
+
+# LangChain Core
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-core==0.2.39
+
+# LLM Provider (OpenAI as default)
+langchain-openai==0.1.23
+
+# Vector Store
+faiss-cpu==1.9.0.post1
+
+# PDF Processing
+pypdf>=3.0.0
+pymupdf>=1.24.0
+
+# Text Splitting
+langchain-text-splitters==0.2.0
+
+# Neural Reranking
+sentence-transformers==2.7.0
+
+# NLTK for text preprocessing
+nltk==3.8.1
+
+# MinIO for object storage
+minio==7.2.5
+
+# BM25 for keyword search
+rank-bm25==0.2.2
+
+# Validation
+pydantic==2.8.2
+
+# Environment
+python-dotenv==1.0.0
+
+# HTTP Client
+requests==2.31.0
+
+# Authentication
+PyJWT==2.8.0
+
+# Document Processing
+python-multipart==0.0.9
+
+# Utilities
+requests==2.31.0
+werkzeug==3.0.3
+numpy==1.26.4
+
+# Async support
+aiofiles==23.2.1
+
+# Database - asyncpg instead of Prisma
+asyncpg==0.29.0
+
+# Additional dependencies
+Jinja2>=3.1.4
+MarkupSafe>=2.1.5
+typing-extensions>=4.11.0
+pydantic>=2.7.0
+pydantic-core>=2.18.0
+
+# Production server
+gunicorn==21.2.0
